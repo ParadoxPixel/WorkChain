@@ -17,7 +17,7 @@ Work.firstTask(() -> {
 }).setFullExecute(false).execute(); //Set execution mode to partial or full and execute
 ```
 
-
+```
 //Create Queue
 WorkQueue myQueue = QueueManager.addQueue("my-queue-id");
 WorkThreader threader = new WorkThreader(workers, myQueue); //Define how many threads work on a specific queue instead of global
